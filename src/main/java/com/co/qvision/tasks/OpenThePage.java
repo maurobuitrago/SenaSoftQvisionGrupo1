@@ -9,6 +9,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class OpenThePage implements Task {
+
     @Override
     public <T extends Actor> void performAs(T actor) {
 

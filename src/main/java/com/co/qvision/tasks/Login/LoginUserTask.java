@@ -7,10 +7,12 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.actions.ScrollTo;
+import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class LoginUserTask implements Task {
+    @Step("{0} Sebas login to successful")
     @Override
     public <T extends Actor> void performAs(T actor) {
 
