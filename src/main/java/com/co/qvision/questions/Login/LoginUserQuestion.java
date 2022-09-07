@@ -1,6 +1,5 @@
 package com.co.qvision.questions.Login;
 
-import com.co.qvision.tasks.Login.LoginUserTask;
 import com.co.qvision.userinterfaces.login.LoginUserUserInterface;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

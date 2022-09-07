@@ -6,7 +6,7 @@ Feature: I as user login in Bon bonite
   @LoginUserSuccessful
   Scenario: Login in
     #prepositions
-    Given Sebas in the my count page
+    Given Sebas in the my account page
     #actions
     When He fills in the form login
     #consequences
