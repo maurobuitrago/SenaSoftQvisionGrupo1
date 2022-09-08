@@ -35,4 +35,7 @@ public class MyAccount {
 
     public static final By PRODUCT_IN_WISHES_LIST = By.xpath("(//img[@alt='Carteras Cuero'])");
 
+    public static final Target BTN_ACCESORIES = Target.the("Button of accessories")
+            .locatedBy("//*[@id=\"menu-item-18950\"]/a");
+
 }
