@@ -8,6 +8,6 @@ public class ConfirmationCardUserInterface {
             locatedBy("//a[@class=\"checkout-button button alt wc-forward\"]");
 
 
-    //public static Target TITLE_SUBTOTAL = Target.the("title subtotal").
-    //        locatedBy("//table[@class=\"shop_table shop_table_responsive\"]");
+    public static Target TITLE_SUBTOTAL = Target.the("title subtotal").
+            locatedBy("//table[@class=\"shop_table shop_table_responsive\"]");
 }

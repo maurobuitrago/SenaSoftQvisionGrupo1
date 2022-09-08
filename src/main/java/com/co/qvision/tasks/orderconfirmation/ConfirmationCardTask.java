@@ -13,7 +13,7 @@ public class ConfirmationCardTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                //Scroll.to(ConfirmationCardUserInterface.TITLE_SUBTOTAL),
+                Scroll.to(ConfirmationCardUserInterface.TITLE_SUBTOTAL),
                 Click.on(ConfirmationCardUserInterface.BTN_PAY)
         );
     }
