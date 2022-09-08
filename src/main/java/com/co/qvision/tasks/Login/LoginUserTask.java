@@ -17,8 +17,8 @@ public class LoginUserTask implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-        Enter.theValue("1091011403").into(LoginUserUserInterface.USERNAME),
-                Enter.theValue("senasoft2022*.").into(LoginUserUserInterface.PASSWORD),
+        Enter.theValue("1094956106").into(LoginUserUserInterface.USERNAME),
+                Enter.theValue("Sg123456789*.").into(LoginUserUserInterface.PASSWORD),
                 Scroll.to(LoginUserUserInterface.USERNAME),
                 Click.on(LoginUserUserInterface.BTN_LOGIN)
         );

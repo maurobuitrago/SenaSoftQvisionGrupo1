@@ -12,6 +12,6 @@ public class ConfirmProductUserInterface {
             locatedBy("//button[@class=\"single_add_to_cart_button button alt\"]");
 
 
-    public static By TEXT_SUCCESSFUL = By.xpath("//div[@class=\"cart-contents-count\"]");
+    public static By TEXT_SUCCESSFUL = By.xpath("//a[text()='Baletas en cuero color verde esmeralda y animal print - 35.5']");
 
 }

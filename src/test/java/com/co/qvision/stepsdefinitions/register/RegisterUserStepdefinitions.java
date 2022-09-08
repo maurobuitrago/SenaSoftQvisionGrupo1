@@ -12,6 +12,8 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
+import static org.junit.Assert.assertEquals;
+
 public class RegisterUserStepdefinitions {
     //Instaciamos el driver chromeDriver
     @Managed(driver = "chrome")
@@ -39,6 +41,7 @@ public class RegisterUserStepdefinitions {
     @Then("^He should sees in screen the text of successful register$")
     public void heShouldSeesInScreenTheTextOfSuccessfulRegister() {
         System.out.println("Successful Register? "+ SuccesfulRegister.value().answeredBy(Alejo));
+        assertEquals("1091011403",SuccesfulRegister.value().answeredBy(Alejo));
     }
 
 }
