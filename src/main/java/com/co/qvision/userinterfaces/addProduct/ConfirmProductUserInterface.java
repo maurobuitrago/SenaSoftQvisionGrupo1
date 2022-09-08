@@ -11,7 +11,8 @@ public class ConfirmProductUserInterface {
     public static Target BTN_ADD_PRODUCT = Target.the("button add product").
             locatedBy("//button[@class=\"single_add_to_cart_button button alt\"]");
 
-
+    public static Target BTN_BUY = Target.the("Button of buy")
+            .locatedBy("//*[@id=\"product-211244\"]/div[2]/div[1]/div/form/div/div[2]/div[1]");
     public static By TEXT_SUCCESSFUL = By.xpath("//div[@class=\"cart-contents-count\"]");
 
 }
