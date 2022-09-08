@@ -1,6 +1,7 @@
 package com.co.qvision.userinterfaces.register;
 
 import net.serenitybdd.screenplay.targets.Target;
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.By;
 
 public class MyAccount {
@@ -37,5 +38,6 @@ public class MyAccount {
 
     public static final Target BTN_ACCESORIES = Target.the("Button of accessories")
             .locatedBy("//*[@id=\"menu-item-18950\"]/a");
-
+    public static final Target INSTAGRAM = Target.the("Social network instagram")
+            .locatedBy("(//a[@class='social_net'])[1]");
 }
